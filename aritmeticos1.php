@@ -8,7 +8,7 @@
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>aritmeticos</title>
 
 
 
@@ -21,10 +21,10 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="producto.php">productos</a>
+                <a class="nav-link" href="#">Features</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Pricing</a>
@@ -32,7 +32,6 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Dropdown link
-                
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <li><a class="dropdown-item" href="#">Action</a></li>
@@ -63,26 +62,17 @@
             <hr>
             <form method="post" action="resive_post.php">
                 <div class="form-group">
-                    <label for="nombre">nombre</label>
-                    <input id="nombre" class="form-control" type="text" name="Nombre">
+                    <label for="valor1">valor 1</label>
+                    <input id="valo1" class="form-control" type="text" name="valo1" required>
                 </div>
                 <div class="form-group">
-                    <label for="usuario">usuario</label>
-                    <input id="usuario" class="form-control" type="text" name="Usuario">
-                </div>
-
-                <div class="form-group">
-                    <label for="contrasena">contra1</label>
-                    <input id="contrasena" class="form-control" type="password" name="Contrasena">
+                    <label for="valor2">valor 2</label>
+                    <input id="valor2" class="form-control" type="text" name="valor2" required>
                 </div>
 
                 <div class="form-group">
-                    <label for="passeord">contra</label>
-                    <input id="passeord" class="form-control" type="password" name="PASSEORD">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input id="email" class="form-control" type="email" name="EMAIL">
+                  <label for="operacion">Text</label>
+                  <input id="operacion" class="form-control" type="text" name="">
                 </div>
 
                 <br/>

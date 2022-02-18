@@ -24,7 +24,7 @@
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="producto.php">productos</a>
+                <a class="nav-link" href="#">Features</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Pricing</a>
@@ -32,7 +32,6 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Dropdown link
-                
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <li><a class="dropdown-item" href="#">Action</a></li>
@@ -59,30 +58,30 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-6 p-5 bg-white shadow-lg rounded">
-            <h3> Registro de usuario de lAS NENAS</h3>
+        <h3> Nuevo Producto</h3>
             <hr>
-            <form method="post" action="resive_post.php">
+            <form method="post" action="resiveProducto_post.php">
                 <div class="form-group">
                     <label for="nombre">nombre</label>
                     <input id="nombre" class="form-control" type="text" name="Nombre">
                 </div>
                 <div class="form-group">
-                    <label for="usuario">usuario</label>
-                    <input id="usuario" class="form-control" type="text" name="Usuario">
+                    <label for="costo">costo</label>
+                    <input id="costo" class="form-control" type="text" name="Costo">
                 </div>
 
                 <div class="form-group">
-                    <label for="contrasena">contra1</label>
-                    <input id="contrasena" class="form-control" type="password" name="Contrasena">
+                    <label for="precio">costo</label>
+                    <input id="precio" class="form-control" type="text" name="Precio">
                 </div>
 
                 <div class="form-group">
-                    <label for="passeord">contra</label>
-                    <input id="passeord" class="form-control" type="password" name="PASSEORD">
+                    <label for="stock">Stock</label>
+                    <input id="stock" class="form-control" type="text" name="Stock">
                 </div>
                 <div class="form-group">
-                    <label for="email">Email</label>
-                    <input id="email" class="form-control" type="email" name="EMAIL">
+                    <label for="stockmin">stock minimo</label>
+                    <input id="stockmin" class="form-control" type="text" name="Stockmin">
                 </div>
 
                 <br/>
